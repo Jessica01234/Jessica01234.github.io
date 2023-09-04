@@ -1,0 +1,450 @@
+/* Extra Extra Large */
+@media(min-width:1200px){
+  .col-xl-1 {
+      width: 8.33%;
+    }
+    .col-xl-2 {
+      width: 16.66%;
+    }
+    .col-xl-3 {
+      width: 25%;
+    }
+    .col-xl-4 {
+      width: 33.33%;
+    }
+    .col-xl-5 {
+      width: 41.66%;
+    }
+    .col-xl-6 {
+      width: 50%;
+    }
+    .col-xl-7 {
+      width: 58.33%;
+    }
+    .col-xl-8 {
+      width: 66.66%;
+    }
+    .col-xl-9 {
+      width: 74.99%;
+    }
+    .col-xl-10 {
+      width: 83.33%;
+    }
+    .col-xl-11 {
+      width: 91.66%;
+    }
+    .col-xl-12 {
+      width: 100%;
+    }
+    .none{
+      display: none;
+    }
+    .initial-section{
+      padding: 30px 80px;
+    }
+    .second-nav{
+      border: 3px solid silver;
+      height: 350px;
+      padding: 30px;
+    }
+    .third-nav{
+      border: 3px solid silver;
+    }
+    .fourth-nav{
+      border: 3px solid silver;
+    }
+    .fifth-nav{
+      border: 3px solid rgb(199, 198, 198);
+      box-shadow: 50px;
+      border-radius: 20px;
+      padding: 50px;
+      position: absolute;
+      margin-top: 20px;
+      left: 180px;
+    }
+    .main-section{
+      padding: 50px;
+      margin-bottom: 50px;
+    }
+    
+  
+  }
+
+
+/* large devices */
+@media (min-width:999px) and (max-width:1199px){
+    .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-lg-2 {
+        width: 16.66%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
+      .col-lg-4 {
+        width: 33.33%;
+      }
+      .col-lg-5 {
+        width: 41.66%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-7 {
+        width: 58.33%;
+      }
+      .col-lg-8 {
+        width: 66.66%;
+      }
+      .col-lg-9 {
+        width: 74.99%;
+      }
+      .col-lg-10 {
+        width: 83.33%;
+      }
+      .col-lg-11 {
+        width: 91.66%;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }
+      .none{
+        display: none;
+      }
+      .initial-section{
+        padding: 30px 80px;
+      }
+      .second-nav{
+        border: 3px solid silver;
+        height: 350px;
+        padding: 30px;
+      }
+      .third-nav{
+        border: 3px solid silver;
+      }
+      .fourth-nav{
+        border: 3px solid silver;
+      }
+      .fifth-nav{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        padding: 50px;
+        position: absolute;
+        margin-top: 20px;
+        left: 220px;
+      }
+      .main-section{
+        padding: 50px;
+        margin-bottom: 50px;
+      }
+      
+    
+}
+
+/* medium devices */
+@media(min-width:768px) and (max-width:998px){
+    .col-md-1 {
+        width: 8.33%;
+      }
+      .col-md-2 {
+        width: 16.66%;
+      }
+      .col-md-3 {
+        width: 25%;
+      }
+      .col-md-4 {
+        width: 33.33%;
+      }
+      .col-md-5 {
+        width: 41.66%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-7 {
+        width: 58.33%;
+      }
+      .col-md-8 {
+        width: 66.66%;
+      }
+      .col-md-9 {
+        width: 74.99%;
+      }
+      .col-md-10 {
+        width: 83.33%;
+      }
+      .col-md-11 {
+        width: 91.66%;
+      }
+      .col-md-12 {
+        width: 100%;
+      }
+      .first-nav{
+        display: flex;
+        flex-wrap: wrap;
+        height: 850px;
+      }
+      .second-div{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .first-div{
+        display: flex;
+        gap: 50px;
+        
+      }
+      .images{
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+      .First-button{
+        margin-left: 150px;
+      }
+      .first-article{
+        margin-bottom: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+      .main-section{
+        padding: 50px;
+        margin-bottom: 50px;
+      }
+      .initial-section{
+        display: none;
+      }
+      .roll-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .roll-2{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        padding: 50px;
+      }
+      .image-1{
+        height: 400px;
+        margin-left: 150px;
+      }
+      .roll-3{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        padding: 50px;
+      }
+      .fifth-nav{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        padding: 50px;
+        position: absolute;
+        margin-top: 20px;
+        margin-right: 150px;
+      }
+    
+    
+}
+
+
+/* small devices */
+@media(min-width:576px) and (max-width:767px){
+    .col-sm-1 {
+        width: 8.33%;
+      }
+      .col-sm-2 {
+        width: 16.66%;
+      }
+      .col-sm-3 {
+        width: 25%;
+      }
+      .col-sm-4 {
+        width: 33.33%;
+      }
+      .col-sm-5 {
+        width: 41.66%;
+      }
+      .col-sm-6 {
+        width: 50%;
+      }
+      .col-sm-7 {
+        width: 58.33%;
+      }
+      .col-sm-8 {
+        width: 66.66%;
+      }
+      .col-sm-9 {
+        width: 74.99%;
+      }
+      .col-sm-10 {
+        width: 83.33%;
+      }
+      .col-sm-11 {
+        width: 91.66%;
+      }
+      .col-sm-12 {
+        width: 100%;
+      }
+      .first-nav{
+        display: flex;
+        flex-wrap: wrap;
+        height: 850px;
+      }
+      .second-div{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .first-div{
+        display: flex;
+        gap: 50px;
+        
+      }
+      .first-article{
+        margin-bottom: 50px;
+      }
+      .First-button{
+        margin-left: 200px;
+      }
+      .main-section{
+        padding: 50px;
+        margin-bottom: 50px;
+      }
+      .initial-section{
+        display: none;
+      }
+      .roll-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .roll-2{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        padding: 70px 120px;
+      }
+      .image-1{
+        height: 250px;
+      }
+      .roll-3{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        padding: 70px;
+        font-size: 30px;
+      }
+      .fifth-nav{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        padding: 50px;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 70px;
+        
+        
+
+      }
+    
+    
+
+
+
+    }
+
+/* extra small */
+@media(max-width:575px){
+    .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.66%;
+      }
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 74.99%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }
+      .first-nav{
+        display: flex;
+        flex-wrap: wrap;
+        height: 850px;
+      }
+      .second-div{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .first-div{
+        display: flex;
+        gap: 50px;
+        
+      }
+      .first-article{
+        margin-bottom: 50px;
+      }
+      .main-section{
+        padding: 50px;
+        margin-bottom: 50px;
+      }
+      .initial-section{
+        display: none;
+      }
+      .roll-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .roll-2{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        padding: 50px;
+      }
+      .image-1{
+        height: 200px;
+      }
+      .roll-3{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        padding: 50px;
+      }
+      .fifth-nav{
+        border: 3px solid rgb(199, 198, 198);
+        box-shadow: 50px;
+        border-radius: 20px;
+        padding: 50px;
+        position: absolute;
+        margin-top: 20px;
+      }
+    }

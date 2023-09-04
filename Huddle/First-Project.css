@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+/* Header Section */
+.first-nav{
+    height: 600px;
+    padding: 70px;
+    background-color: rgb(167, 215, 233);
+   background-image: url('images/bg-hero-desktop.svg')
+}
+
+.First-div{
+    display: flex;
+    justify-content: space-between;
+}
+.First-div img{
+    margin-top: 50px;
+}
+.First-button{
+    border-radius:50px ;
+    padding:3px;
+   background-color: white;
+    text-decoration: black;
+    margin-top: 50px;
+}
+.First-button:hover{
+    cursor: pointer;
+}
+.second-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.second-div img{
+    height: 300px;
+}
+.first-article h3{
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.first-article p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first-article button{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+
+}
+.first-article button:hover{
+    cursor: pointer;
+}
+/* second section */
+
+.second-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    
+}
+
+.third-div{
+    margin-top: 100px;
+}
+.second-nav h3{
+ font-family: poppins;
+ font-weight: 600;
+}
+.fourth-div{
+    height: 300px;
+    padding-top: 50px;
+}
+.third-div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* Third section */
+.third-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.fifth-div img{
+    height: 300px;
+}
+.sixth-div{
+    padding-left: 100px;
+    padding-top: 50px;
+    box-shadow: 50px;
+}
+/* fourth section */
+.fourth-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.seventh-div{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.eight-div img{
+    height: 300px;
+}
+/* fifth section */
+.fifth-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     background-color: white;
+    padding: 15px;
+}
+.Last-div{
+box-shadow: 30px;
+}
+.Last-button{
+    border-radius: 50px;
+    background-color: palevioletred;
+    padding: 10px 30px;
+    color: white;
+}
+/* footer section */
+.footer{
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(3, 22, 22);
+color: white;
+}
+.Contact{
+    margin-top: 100px;
+}
+.row{
+    margin-top: 30px;
+}
+.row:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
