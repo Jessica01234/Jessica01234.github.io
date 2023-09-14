@@ -1,0 +1,469 @@
+/* HOME STYLING */
+
+.html-body{
+  height: 2000px;
+  background-color: black;
+}
+/* Header Section */
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin-top: -40px;
+}
+.navbar-brand{
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+}
+.nav-link{
+  font-weight: 600;
+}
+/* Second Section */
+.first-nav{
+    justify-content: center;
+    background-image: url('images/Sweet-Cheeks-Biscuit_1500x850.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-style: italic;
+}
+.welcome-1{
+    padding-top: 170px;
+}
+.welcome-2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* Third Section */
+.text-section{
+  color:  white !important;
+}
+.text-row{
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.text-section:hover{
+  cursor: pointer;
+}
+.image_1{
+  padding-top: 10rem;
+  background-image: url('images/Sweet-Cheeks-interior_1500x1000.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.image_2{
+  padding-top: 10rem;
+  background-image: url('images/meimei-dumplings-spread4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.FOODS{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 5rem;
+  color: white;
+}
+.carousel-item{
+  height: 400px;
+}
+/* Fourth Section */
+.third-nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  color: white;
+  margin-left: 30px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 5rem;
+}
+.third-div{
+  color: white;
+}
+.contact{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+}
+.contact-1:hover{
+  cursor: pointer;
+}
+.fourth-div{
+  color: white;
+}
+.Social{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.Social-1{
+  height: 35px;
+}
+.Social-1:hover{
+  cursor: pointer;
+}
+
+
+
+
+/* MENU STYLING */
+.menu-body{
+  background-color: black;
+  height: 60rem;
+}
+.menu-navbar{
+  margin-top: -10px;
+}
+.main{
+  color: white;
+  background-image: url('images/Sweet-Cheeks-Biscuit_1500x850.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 4rem;
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.menu:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}
+
+
+
+
+/* RESERVATION STYLING */
+.RESERVATION-body{
+  height: 60rem;
+  background-color: black;
+}
+.reserve-navbar{
+  margin-top: -5px;
+}
+.Reserve{
+  color: white;
+  background-image: url('images/Sweet-Cheeks-interior_1500x1000.jpg');
+  background-repeat: no-repeat;
+  background-size:cover ;
+  height: 500px;
+  padding-top: 3rem;
+}
+.reservation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.reservation-1{
+  font-style: italic;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.reservation-2{
+font-style: italic;
+font-weight: 400;
+font-size: 1.5rem;
+padding-top: 3rem;
+}
+.reservation-3{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.reservation-4{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.button{
+  margin-left: 34rem;
+  margin-top: 3rem;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.button:hover{
+  cursor: pointer;
+  background-color: brown;
+}
+
+
+/* CONTACT STYLING */
+
+.contact-body{
+  background-color: black;
+}
+.contact-navbar{
+  margin-top: -80px;
+}
+
+.contact-h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 5rem;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+
+
+/* Extra Extra Large */
+@media(min-width:1200px){
+    .col-xl-1 {
+        width: 8.33%;
+      }
+      .col-xl-2 {
+        width: 16.66%;
+      }
+      .col-xl-3 {
+        width: 25%;
+      }
+      .col-xl-4 {
+        width: 33.33%;
+      }
+      .col-xl-5 {
+        width: 41.66%;
+      }
+      .col-xl-6 {
+        width: 50%;
+      }
+      .col-xl-7 {
+        width: 58.33%;
+      }
+      .col-xl-8 {
+        width: 66.66%;
+      }
+      .col-xl-9 {
+        width: 74.99%;
+      }
+      .col-xl-10 {
+        width: 83.33%;
+      }
+      .col-xl-11 {
+        width: 91.66%;
+      }
+      .col-xl-12 {
+        width: 100%;
+      }
+      .button{
+        margin-left: 35rem;
+      }
+    }  
+    /* large devices */
+@media (min-width:999px) and (max-width:1199px){
+    .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-lg-2 {
+        width: 16.66%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
+      .col-lg-4 {
+        width: 33.33%;
+      }
+      .col-lg-5 {
+        width: 41.66%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-7 {
+        width: 58.33%;
+      }
+      .col-lg-8 {
+        width: 66.66%;
+      }
+      .col-lg-9 {
+        width: 74.99%;
+      }
+      .col-lg-10 {
+        width: 83.33%;
+      }
+      .col-lg-11 {
+        width: 91.66%;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }
+      .button{
+        margin-left: 28rem;
+      }
+    }
+    /* medium devices */
+@media(min-width:768px) and (max-width:998px){
+    .col-md-1 {
+        width: 8.33%;
+      }
+      .col-md-2 {
+        width: 16.66%;
+      }
+      .col-md-3 {
+        width: 25%;
+      }
+      .col-md-4 {
+        width: 33.33%;
+      }
+      .col-md-5 {
+        width: 41.66%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-7 {
+        width: 58.33%;
+      }
+      .col-md-8 {
+        width: 66.66%;
+      }
+      .col-md-9 {
+        width: 74.99%;
+      }
+      .col-md-10 {
+        width: 83.33%;
+      }
+      .col-md-11 {
+        width: 91.66%;
+      }
+      .col-md-12 {
+        width: 100%;
+      }
+      .button{
+        margin-left: 24rem;
+      }
+    }
+    /* small devices */
+@media(min-width:576px) and (max-width:767px){
+    .col-sm-1 {
+        width: 8.33%;
+      }
+      .col-sm-2 {
+        width: 16.66%;
+      }
+      .col-sm-3 {
+        width: 25%;
+      }
+      .col-sm-4 {
+        width: 33.33%;
+      }
+      .col-sm-5 {
+        width: 41.66%;
+      }
+      .col-sm-6 {
+        width: 50%;
+      }
+      .col-sm-7 {
+        width: 58.33%;
+      }
+      .col-sm-8 {
+        width: 66.66%;
+      }
+      .col-sm-9 {
+        width: 74.99%;
+      }
+      .col-sm-10 {
+        width: 83.33%;
+      }
+      .col-sm-11 {
+        width: 91.66%;
+      }
+      .col-sm-12 {
+        width: 100%;
+      }
+      .second-nav{
+        flex-wrap: wrap;
+      }
+      .third-div{
+        margin-top: 1rem;
+      }
+      .fifth-div{
+        margin-top: 1rem;
+      }
+      .button{
+        margin-left: 18rem;
+      }
+    }
+    /* extra small */
+@media(max-width:575px){
+    .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.66%;
+      }
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 74.99%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }
+      .second-nav{
+        flex-wrap: wrap;
+      }
+      .fourth-div{
+        margin-top: 1rem;
+      }
+      .fifth-div{
+        margin-top: 1rem;
+      }
+      .button{
+        margin-left: 9rem;
+      }
+    }
