@@ -37,7 +37,7 @@
     padding-top: 170px;
 }
 .welcome-2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
 }
 /* Third Section */
@@ -204,7 +204,7 @@ padding-top: 3rem;
   font-size: 1.5rem;
 }
 .button{
-  margin-left: 34rem;
+
   margin-top: 3rem;
   padding: 0.5rem 2rem;
   border-radius: 50px;
@@ -234,7 +234,7 @@ padding-top: 3rem;
   margin-top: 5rem;
   font-style: italic;
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 
@@ -278,7 +278,7 @@ padding-top: 3rem;
         width: 100%;
       }
       .button{
-        margin-left: 35rem;
+        margin-left: 47rem;
       }
     }  
     /* large devices */
@@ -464,6 +464,12 @@ padding-top: 3rem;
         margin-top: 1rem;
       }
       .button{
-        margin-left: 9rem;
+        margin-left: 5rem;
+      }
+      .welcome-1{
+        font-size: 2rem;
+      }
+      .welcome-2{
+        font-size: 1.5rem;
       }
     }
