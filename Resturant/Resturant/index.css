@@ -9,15 +9,27 @@
   position: fixed;
   width: 100%;
   z-index: 1;
-  margin-top: -40px;
+  margin-top: -5px; 
+  background-color: black;
 }
 .navbar-brand{
   font-style: italic;
   font-weight: 600;
   font-size: 30px;
+  color: white;
+}
+.navbar-brand:hover{
+  color: white;
 }
 .nav-link{
+  color: white;
   font-weight: 600;
+}
+.nav-link:hover{
+  background-color: brown;
+  color: white;
+  border-bottom: 1px solid white;
+
 }
 /* Second Section */
 .first-nav{
@@ -89,7 +101,7 @@
   color: white;
   margin-left: 30px;
 }
-h1{
+.contact-h1{
   display: flex;
   justify-content: center;
   color: white;
@@ -142,7 +154,7 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 .menu{
   display: flex;
@@ -157,7 +169,24 @@ h1{
   text-decoration: underline;
   color: black;
 }
+.menu-row{
+  justify-content: center;
+  margin-top: 3rem;
+  color: white;
+}
+.cocktail-row{
+  justify-content: center;
+  color: white;
 
+}
+.food-row{
+  justify-content: center;
+  color: white;
+}
+.desert-row{
+  justify-content: center;
+  color: white;
+}
 
 
 
@@ -204,7 +233,6 @@ padding-top: 3rem;
   font-size: 1.5rem;
 }
 .button{
-
   margin-top: 3rem;
   padding: 0.5rem 2rem;
   border-radius: 50px;
@@ -278,7 +306,7 @@ padding-top: 3rem;
         width: 100%;
       }
       .button{
-        margin-left: 47rem;
+        margin-left: 35rem;
       }
     }  
     /* large devices */
