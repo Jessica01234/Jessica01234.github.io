@@ -90,8 +90,9 @@
   color: white;
 }
 .carousel-item{
-  height: 400px;
+  height: 900px;
 }
+
 /* Fourth Section */
 .third-nav{
   display: flex;
@@ -155,6 +156,10 @@
   background-size: cover;
   height: 500px;
   padding-top: 6rem;
+}
+.main a{
+  text-decoration: none;
+  color: unset;
 }
 .menu{
   display: flex;
@@ -246,6 +251,10 @@ padding-top: 3rem;
   font-style: italic;
   font-weight: 700;
   font-size: 1.5rem;
+}
+.button a{
+  text-decoration: none;
+  color: unset;
 }
 .button:hover{
   cursor: pointer;
